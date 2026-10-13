@@ -1,0 +1,167 @@
+*{
+    margin:0;
+}
+
+body{
+    background-color:#05070d;
+    color:white;
+    font-family:Arial;
+    text-align:center;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background-color:#0b0f18;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    padding:10px 18px;
+    margin-left:-4px;
+}
+
+nav a:hover{
+    background-color:white;
+    color:#05070d;
+}
+
+.hero{
+    padding:100px 20px;
+    background-color:#0b0f18;
+}
+
+.hero h1{
+    font-size:4em;
+    text-shadow:5px 5px 2px #222;
+}
+
+.hero p{
+    font-size:1.2em;
+    margin:20px;
+}
+
+.title{
+    margin:50px 20px 25px;
+    font-size:2.5em;
+}
+
+.subtitle{
+    margin:10px 20px 40px;
+}
+
+.row{
+    width:100%;
+}
+
+.col{
+    width:25%;
+    float:left;
+    text-align:center;
+    padding-bottom:40px;
+}
+.col img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:10px;
+    opacity:0.9;
+}
+
+.col img:hover{
+    opacity:0.6;
+}
+
+.col h3{
+    margin:15px;
+}
+
+.col p{
+    margin:15px;
+}
+
+.col2{
+    width:50%;
+    float:left;
+    text-align:center;
+    padding-bottom:50px;
+}
+
+.col2 img{
+    width:60%;
+    height:px;
+    opacity:;
+}
+
+.card{
+    width:80%;
+    margin:30px auto;
+    padding:30px;
+    border:1px solid #444;
+    background-color:#0b0f18;
+    border-radius:10px;
+}
+
+#sun{
+    font-size:3em;
+    text-shadow:5px 5px 2px #333;
+}
+
+#intro{
+    width:80%;
+    margin:40px auto;
+    line-height:1.6;
+}
+
+table{
+    width:90%;
+    margin:30px auto;
+}
+
+th,td{
+    border:1px solid #555;
+    padding:12px;
+}
+
+th{
+    background-color:#1a2030;
+}
+
+form{
+    width:70%;
+    margin:30px auto;
+    padding:30px;
+    border:1px solid #555;
+    background-color:#0b0f18;
+    border-radius:10px;
+}
+
+input,textarea{
+    width:90%;
+    padding:10px;
+    margin:10px;
+}
+
+button{
+    background-color:white;
+    color:#05070d;
+    padding:10px 25px;
+    border:0;
+}
+
+button:hover{
+    background-color:#999;
+}
+
+.footer{
+    clear:both;
+    padding:30px;
+    margin-top:40px;
+    background-color:#0b0f18;
+}
+.dan{
+    width:80%;
+}
+#
